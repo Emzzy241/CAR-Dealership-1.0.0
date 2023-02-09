@@ -38,14 +38,28 @@ class CarDealership
             Console.WriteLine("Ledger Tricycle, Costs: $1,100");
             Console.WriteLine("Napep Tricycle, Costs: $1,200");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally for Tricycles");
-            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Tricycle would perform in the Dakar Rally for Tricycles");
+            Console.WriteLine("Enter i to know how much you can sell your Tricycle in several years to come");
 
             // other Application functionalities
             string userSecondInput = Console.ReadLine();
 
             if (userSecondInput == "i")
             {
+
+                Console.WriteLine("Enter the Year you want to know how much you'll sell your Tricycle");
+
+                string yearUserEntered = Console.ReadLine();
+
+                int yearInInteger = int.Parse(yearUserEntered);
+
+                Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
+
+                int triCalcYear = yearInInteger / 2000 * 100;
+                Console.WriteLine("Free-way Tricycle, Cost: $ " + triCalcYear);
+                Console.WriteLine("Ledger Tricycle, Cost: $ " + triCalcYear);
+                Console.WriteLine("Napep Tricycle, Cost: $ " + triCalcYear);
+
             }
 
             else if (userSecondInput == "D")
@@ -73,6 +87,20 @@ class CarDealership
 
             if (userSecondInput == "i")
             {
+                Console.WriteLine("Enter the Year you want to know how much you'll sell your Tricycle");
+
+                string yearUserEntered = Console.ReadLine();
+
+                int yearInInteger = int.Parse(yearUserEntered);
+
+                Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
+
+                int triCalcYear = yearInInteger / 2000 * 100;
+                Console.WriteLine("Free-way Tricycle, Cost: $ " + triCalcYear);
+                Console.WriteLine("Ledger Tricycle, Cost: $ " + triCalcYear);
+                Console.WriteLine("Napep Tricycle, Cost: $ " + triCalcYear);
+
+
             }
 
             else if (userSecondInput == "D")
@@ -100,6 +128,19 @@ class CarDealership
 
             if (userSecondInput == "i")
             {
+                Console.WriteLine("Enter the Year you want to know how much you'll sell your Tricycle");
+
+                string yearUserEntered = Console.ReadLine();
+
+                int yearInInteger = int.Parse(yearUserEntered);
+
+                Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
+
+                int carCalcYear = yearInInteger / 2000 * 100;
+                Console.WriteLine("Honda Crosstour, Cost: $ " + carCalcYear);
+                Console.WriteLine("Lexus-350, Cost: $ " + carCalcYear);
+                Console.WriteLine("Toyota Camry, Cost: $ " + carCalcYear);
+
             }
 
             else if (userSecondInput == "D")
@@ -127,7 +168,22 @@ class CarDealership
 
             if (userSecondInput == "i")
             {
+                Console.WriteLine("Enter the Year you want to know how much you'll sell your Tricycle");
+
+                string yearUserEntered = Console.ReadLine();
+
+                int yearInInteger = int.Parse(yearUserEntered);
+
+                    Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
+
+                    int planeCalcYear = yearInInteger / 2000 * 100;
+                    Console.WriteLine("Air144, Costs, Cost: $ " + planeCalcYear);
+                    Console.WriteLine("Gulf-stream Jet, Cost: $ " + planeCalcYear);
+                    Console.WriteLine("G-5 Aerodynamo, Cost: $ " + planeCalcYear);
+
             }
+
+
 
             else if (userSecondInput == "D")
             {
