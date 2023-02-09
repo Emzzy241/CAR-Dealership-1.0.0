@@ -38,7 +38,7 @@ class CarDealership
             Console.WriteLine("Ledger Tricycle, Costs: $1,100");
             Console.WriteLine("Napep Tricycle, Costs: $1,200");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Tricycle would perform in the Dakar Rally for Tricycles");
+            Console.WriteLine("To know about other Features of the Tricycle, Enter D to know how Tricycle would perform in the Dakar Rally for Tricycles");
             Console.WriteLine("Enter i to know how much you can sell your Tricycle in several years to come");
 
             // other Application functionalities
@@ -51,11 +51,11 @@ class CarDealership
 
                 string yearUserEntered = Console.ReadLine();
 
-                int yearInInteger = int.Parse(yearUserEntered);
+                double yearInInteger = double.Parse(yearUserEntered);
 
                 Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
 
-                int triCalcYear = yearInInteger / 2000 * 100;
+                double triCalcYear = yearInInteger / 30 * 100;
                 Console.WriteLine("Free-way Tricycle, Cost: $ " + triCalcYear);
                 Console.WriteLine("Ledger Tricycle, Cost: $ " + triCalcYear);
                 Console.WriteLine("Napep Tricycle, Cost: $ " + triCalcYear);
@@ -79,26 +79,26 @@ class CarDealership
             Console.WriteLine("Suzuki Bike, Costs: $300");
             Console.WriteLine("Bajaj Bike, Costs: $400");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally for Bikes");
-            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+            Console.WriteLine("To know about other Features of the Bike, Enter D to know how Bike would perform in the Dakar Rally for Bikes");
+            Console.WriteLine("Enter i to know how much you can sell your Bike in several years to come");
 
             // other Application functionalities
             string userSecondInput = Console.ReadLine();
 
             if (userSecondInput == "i")
             {
-                Console.WriteLine("Enter the Year you want to know how much you'll sell your Tricycle");
+                Console.WriteLine("Enter the Year you want to know how much you'll sell your Bike");
 
                 string yearUserEntered = Console.ReadLine();
 
-                int yearInInteger = int.Parse(yearUserEntered);
+                double yearInInteger = double.Parse(yearUserEntered);
 
                 Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
 
-                int triCalcYear = yearInInteger / 2000 * 100;
-                Console.WriteLine("Free-way Tricycle, Cost: $ " + triCalcYear);
-                Console.WriteLine("Ledger Tricycle, Cost: $ " + triCalcYear);
-                Console.WriteLine("Napep Tricycle, Cost: $ " + triCalcYear);
+                double bikeCalcYear = yearInInteger / 50 * 100;
+                Console.WriteLine("Zana Bike, Cost: $ " + bikeCalcYear);
+                Console.WriteLine("Suzuki Bike, Cost: $ " + bikeCalcYear);
+                Console.WriteLine("Bajaj Bike, Cost: $ " + bikeCalcYear);
 
 
             }
@@ -120,23 +120,23 @@ class CarDealership
             Console.WriteLine("Lexus-350, Costs: $10,100");
             Console.WriteLine("Toyota Camry, Costs: $3,200");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally FOr Cars");
-            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+            Console.WriteLine("To know about other Features of the Car, Enter D to know how Car would perform in the Dakar Rally FOr Cars");
+            Console.WriteLine("Enter i to know how much you can sell your Car in several years to come");
 
             // other Application functionalities
             string userSecondInput = Console.ReadLine();
 
             if (userSecondInput == "i")
             {
-                Console.WriteLine("Enter the Year you want to know how much you'll sell your Tricycle");
+                Console.WriteLine("Enter the Year you want to know how much you'll sell your Car");
 
                 string yearUserEntered = Console.ReadLine();
 
-                int yearInInteger = int.Parse(yearUserEntered);
+                double yearInInteger = double.Parse(yearUserEntered);
 
                 Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
 
-                int carCalcYear = yearInInteger / 2000 * 100;
+                double carCalcYear = yearInInteger / 15 * 100;
                 Console.WriteLine("Honda Crosstour, Cost: $ " + carCalcYear);
                 Console.WriteLine("Lexus-350, Cost: $ " + carCalcYear);
                 Console.WriteLine("Toyota Camry, Cost: $ " + carCalcYear);
@@ -160,26 +160,26 @@ class CarDealership
             Console.WriteLine("Gulf-stream Jet, Costs: $900,100");
             Console.WriteLine("G-5 Aerodynamo, Costs: $800,200");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally For Planes");
-            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+            Console.WriteLine("To know about other Features of the Plane, Enter D to know how Plane would perform in the Dakar Rally For Planes");
+            Console.WriteLine("Enter i to know how much you can sell your Plane in several years to come");
 
             // other Application functionalities
             string userSecondInput = Console.ReadLine();
 
             if (userSecondInput == "i")
             {
-                Console.WriteLine("Enter the Year you want to know how much you'll sell your Tricycle");
+                Console.WriteLine("Enter the Year you want to know how much you'll sell your Plane");
 
                 string yearUserEntered = Console.ReadLine();
 
-                int yearInInteger = int.Parse(yearUserEntered);
+                double yearInInteger = double.Parse(yearUserEntered);
 
-                    Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
+                Console.WriteLine("In the Year " + yearInInteger + " This is how much you will sell the: ");
 
-                    int planeCalcYear = yearInInteger / 2000 * 100;
-                    Console.WriteLine("Air144, Costs, Cost: $ " + planeCalcYear);
-                    Console.WriteLine("Gulf-stream Jet, Cost: $ " + planeCalcYear);
-                    Console.WriteLine("G-5 Aerodynamo, Cost: $ " + planeCalcYear);
+                double planeCalcYear = yearInInteger / 3 * 100;
+                Console.WriteLine("Air144, Costs, Cost: $ " + planeCalcYear);
+                Console.WriteLine("Gulf-stream Jet, Cost: $ " + planeCalcYear);
+                Console.WriteLine("G-5 Aerodynamo, Cost: $ " + planeCalcYear);
 
             }
 
