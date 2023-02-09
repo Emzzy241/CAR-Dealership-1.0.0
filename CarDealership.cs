@@ -31,30 +31,51 @@ class CarDealership{
 
         if(realUserAuto == "T"){
             Console.WriteLine("You Picked Tricycles, here are the ones we have:");
-            Console.WriteLine("Free-way Tricycle, Costs: ₦1,400,000");
-            Console.WriteLine("Ledger Tricycle, Costs: ₦1,100,000");
-            Console.WriteLine("Napep Tricycle, Costs: ₦1,200,000");
+            Console.WriteLine("Free-way Tricycle, Costs: $1,400");
+            Console.WriteLine("Ledger Tricycle, Costs: $1,100");
+            Console.WriteLine("Napep Tricycle, Costs: $1,200");
+
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+
+            string userSecondInput = Console.ReadLine();
         }
         else if (realUserAuto == "B")
         {
             Console.WriteLine("You Picked Tricycles, here are the ones we have:");
-            Console.WriteLine("Zana Bike, Costs: ₦300,000");
-            Console.WriteLine("Suzuki Bike, Costs: ₦300,000");
-            Console.WriteLine("Baja Bike, Costs: ₦400,000");   
+            Console.WriteLine("Zana Bike, Costs: $300");
+            Console.WriteLine("Suzuki Bike, Costs: $300");
+            Console.WriteLine("Baja Bike, Costs: $400");   
+
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+
+            string userSecondInput = Console.ReadLine();
         }
         else if (realUserAuto == "C")
         {
             Console.WriteLine("You Picked Cars, here are the ones we have:");
-            Console.WriteLine("Honda Crosstour, Costs: ₦7,400,000");
-            Console.WriteLine("Lexus-350, Costs: ₦10,100,000");
-            Console.WriteLine("Toyota Camry , Costs: ₦3,200,000");
+            Console.WriteLine("Honda Crosstour, Costs: ₦7,400");
+            Console.WriteLine("Lexus-350, Costs: $10,100");
+            Console.WriteLine("Toyota Camry , Costs: $3,200");
+
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+
+            string userSecondInput = Console.ReadLine();
         }
         else if (realUserAuto == "P")
         {
             Console.WriteLine("You Picked Planes, here are the ones we have:");
-            Console.WriteLine("Air144, Costs: ₦290,400,000");
-            Console.WriteLine("Gulf-stream Jet, Costs: ₦900,100,000");
-            Console.WriteLine("G-5 Aerodynamo, Costs: ₦800,200,000");
+            Console.WriteLine("Air144, Costs: $290,400");
+            Console.WriteLine("Gulf-stream Jet, Costs: $900,100");
+            Console.WriteLine("G-5 Aerodynamo, Costs: $800,200");
+
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
+
+            // other Application functionality
+            string userSecondInput = Console.ReadLine();
         }
     }
 }
