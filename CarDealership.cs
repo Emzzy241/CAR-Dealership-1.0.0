@@ -12,8 +12,10 @@
 using System;
 using System.Collections.Generic;
 
-class CarDealership{
-    static void Main(){
+class CarDealership
+{
+    static void Main()
+    {
         // after our Main entry point, le us now write our full-fledged Application
         Console.WriteLine("Welcome to the Ema's Car Dealership, What would you like to purchase TOday");
 
@@ -22,47 +24,93 @@ class CarDealership{
         Console.WriteLine("Please note that our Company is giving out Discounts to all Customers");
         Console.WriteLine("Get 0.2% on Cars you Purchase Today, Get 0.7% for any Planes you Purchase Today");
         Console.WriteLine("On other Automotives, Get 1.0% on Bikes you Purchase TOoday, Get 0.99%on Tricycles you Purchase TOday");
-        
+
         Console.WriteLine("Enter T for Tricycles, B for Bikes, C fo Cars, P for Planes");
 
         string userAutomotive = Console.ReadLine();
         // working on capitalizations i.e Upper or Lower cases
         string realUserAuto = userAutomotive.ToUpper();
 
-        if(realUserAuto == "T"){
+        if (realUserAuto == "T")
+        {
             Console.WriteLine("You Picked Tricycles, here are the ones we have:");
             Console.WriteLine("Free-way Tricycle, Costs: $1,400");
             Console.WriteLine("Ledger Tricycle, Costs: $1,100");
             Console.WriteLine("Napep Tricycle, Costs: $1,200");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally for Tricycles");
             Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
 
+            // other Application functionalities
             string userSecondInput = Console.ReadLine();
+
+            if (userSecondInput == "i")
+            {
+            }
+
+            else if (userSecondInput == "D")
+            {
+                Console.WriteLine("In the Dakar Rally, The Free-way Tricycle will go from 0-60km in 54s");
+                Console.WriteLine("In the Dakar Rally, The Ledger Tricycle will go from 0-60km in 1minute 20seconds");
+                Console.WriteLine("In the Dakar Rally, The Napep Tricycle will go from 0-60km in 2minutes");
+
+            }
+
+
         }
         else if (realUserAuto == "B")
         {
             Console.WriteLine("You Picked Tricycles, here are the ones we have:");
             Console.WriteLine("Zana Bike, Costs: $300");
             Console.WriteLine("Suzuki Bike, Costs: $300");
-            Console.WriteLine("Baja Bike, Costs: $400");   
+            Console.WriteLine("Bajaj Bike, Costs: $400");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally for Bikes");
             Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
 
+            // other Application functionalities
             string userSecondInput = Console.ReadLine();
+
+            if (userSecondInput == "i")
+            {
+            }
+
+            else if (userSecondInput == "D")
+            {
+                Console.WriteLine("In the Dakar Rally, The Zana Bike will go from 0-60km in 3minutes 30seconds");
+                Console.WriteLine("In the Dakar Rally, The Suzuki Bike will go from 0-60km in 3minutes 15seconds");
+                Console.WriteLine("In the Dakar Rally, The Bajaj Bike will go from 0-60km in 3minutes");
+
+            }
+
+
         }
         else if (realUserAuto == "C")
         {
             Console.WriteLine("You Picked Cars, here are the ones we have:");
             Console.WriteLine("Honda Crosstour, Costs: ₦7,400");
             Console.WriteLine("Lexus-350, Costs: $10,100");
-            Console.WriteLine("Toyota Camry , Costs: $3,200");
+            Console.WriteLine("Toyota Camry, Costs: $3,200");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally FOr Cars");
             Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
 
+            // other Application functionalities
             string userSecondInput = Console.ReadLine();
+
+            if (userSecondInput == "i")
+            {
+            }
+
+            else if (userSecondInput == "D")
+            {
+                Console.WriteLine("In the Dakar Rally, The Honda Crosstour will go from 0-60km in 7s");
+                Console.WriteLine("In the Dakar Rally, The Lexus-350 will go from 0-60km in 9s");
+                Console.WriteLine("In the Dakar Rally, The Toyota Camry will go from 0-60km in 8s");
+
+            }
+
+
         }
         else if (realUserAuto == "P")
         {
@@ -71,11 +119,25 @@ class CarDealership{
             Console.WriteLine("Gulf-stream Jet, Costs: $900,100");
             Console.WriteLine("G-5 Aerodynamo, Costs: $800,200");
 
-            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally");
+            Console.WriteLine("To know about other Features of the Automotive, Enter D to know how Automotive would perform in the Dakar Rally For Planes");
             Console.WriteLine("Enter i to know how much you can sell your Automotive in several years to come");
 
-            // other Application functionality
+            // other Application functionalities
             string userSecondInput = Console.ReadLine();
+
+            if (userSecondInput == "i")
+            {
+            }
+
+            else if (userSecondInput == "D")
+            {
+                Console.WriteLine("In the Dakar Rally, The Air144 will go from 0-60km in 4s");
+                Console.WriteLine("In the Dakar Rally, The Gulf-stream Jet will go from 0-60km in 4s");
+                Console.WriteLine("In the Dakar Rally, The G-5 Aerodynamo will go from 0-60km in 4s");
+
+            }
+
+
         }
     }
 }
